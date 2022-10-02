@@ -1,0 +1,8 @@
+[Unit]
+Description=custom tdp for amd devices
+
+[Service]
+ExecStart=/bin/sh -c "sh /opt/ryzenadj/customTDP.sh"
+
+[Install]
+WantedBy=multi-user.target
