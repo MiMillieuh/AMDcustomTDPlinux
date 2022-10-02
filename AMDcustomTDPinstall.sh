@@ -17,7 +17,9 @@ make
 
 cd ../
 
-mv -r build /opt/ryzenadj
+cp -r build /opt/ryzenadj
+
+rm -rf ../RyzenAdj
 
 cd /opt/ryzenadj
 
@@ -35,4 +37,3 @@ systemctl start amd-custom-tdp.service
 echo "now installed"
 
 exit 0
-
